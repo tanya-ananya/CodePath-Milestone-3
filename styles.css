@@ -205,6 +205,33 @@ footer a:visited {
   opacity: 100%;
 }
 
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: rgb(42, 42, 42);
+  color: #f4fffd;
+}
+
+.dark-mode .header-container {
+  background-color: black;
+}
+
+.dark-mode footer{
+  background-color: #018369;
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode footer a {
+  color: #f4fffd;
+}
+
+.dark-mode footer a:visited {
+  color: #f4fffd;
+}
+
+.dark-mode .news-articles {
+  color: #f4fffd;
+}
+
 /* Part 2: Flexbox */
 
 /* General style rule set for flex container */
