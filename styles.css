@@ -183,7 +183,7 @@ footer a:visited {
 
 .navbar ul li a:hover {
   font-weight: bold;
-  color: purple;
+  color: rgb(148, 225, 194);
   opacity: 100%;
 }
 
@@ -200,15 +200,14 @@ footer a:visited {
 }
 
 #theme-button:hover {
-  font-weight: bold; 
-  color: purple;
+  font-weight: bold;
   opacity: 100%;
 }
 
 /* Customize Dark Mode Theme */
 .dark-mode {
   background-color: rgb(42, 42, 42);
-  color: #f4fffd;
+  color: #d1e7e3;
 }
 
 .dark-mode .header-container {
@@ -217,11 +216,11 @@ footer a:visited {
 
 .dark-mode footer{
   background-color: #018369;
-  color: rgb(255, 255, 255);
+  color: #d1e7e3;
 }
 
 .dark-mode footer a {
-  color: #f4fffd;
+  color: #d1e7e3;
 }
 
 .dark-mode footer a:visited {
@@ -229,7 +228,15 @@ footer a:visited {
 }
 
 .dark-mode .news-articles {
-  color: #f4fffd;
+  color: #d1e7e3;
+}
+
+/* Add to CSS file */
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
 }
 
 /* Part 2: Flexbox */
@@ -246,4 +253,22 @@ gap: 1%;
   color: black;
   font-weight: bold;
   text-align: center;
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+}
+
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
 }
