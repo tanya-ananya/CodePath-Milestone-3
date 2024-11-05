@@ -11,7 +11,7 @@ html {
 
 img {
   width: 100%;
-} 
+}
 
 body {
   background-color: rgb(219, 219, 219);
@@ -80,19 +80,24 @@ button {
 }
 
 footer {
-  background-color: rgb(190, 190, 190);
+  background-color: #016752;
   margin: 0;
   padding: 1%;
   text-align: center;
   left: 0;
   bottom: 0;
   width: 100%;
-  position: fixed;
+  opacity: 80%;
 }
 
 footer a {
-  color: rgb(56, 56, 56); 
+  color: #d7faf4; 
   text-decoration: underline;
+  opacity: 100%;
+}
+
+footer a:visited {
+  color: #f4fffd;
 }
 
 .images {
@@ -144,55 +149,61 @@ footer a {
 
 .navbar {
   width: 100%;
-  background-color: rgb(161, 160, 160);
+  background-color: #016752;
   position: fixed;
   top: 0;
   padding: 1.5%;
-  /* border-bottom-left-radius: 20%; */
+  opacity: 80%;
 }
 
-.navbar ul, #theme-button {
+.navbar ul{
   list-style: none;
   display: flex;
   justify-content: flex-end;
   margin: 0;
   padding: 0;
   margin-right: 5%;
+  opacity: 100%;
 }
 
-.navbar ul li, #theme-button {
-  margin: 0 5px;
+.navbar ul li {
+  margin: 0 10px;
+  opacity: 100%;
 }
 
-.navbar ul li a, #theme-button {
+.navbar ul li a{
   font-family: "Cormorant Infant", serif;
-  background-color: #016752;
-  color: white;
-  font-size: 20px;
+  color: #f4fffd;
+  font-size: 21px;
   border-radius: 8%;
   text-align: center;
   text-decoration: none;
+  opacity: 100%;
 }
 
-.navbar ul li a:hover, #theme-button {
+.navbar ul li a:hover {
   font-weight: bold;
+  color: purple;
+  opacity: 100%;
 }
 
 #theme-button {
   font-family: "Cormorant Infant", serif;
-  background-color: #016752;
-  color: white;
-  font-size: 20px;
-  padding: 8px 20px; /* Match this with the links */
-  border-radius: 8%;
-  border: none; /* Remove border for consistency */
-  cursor: pointer; /* Add cursor pointer for usability */
+  background-color: #d7faf4;
+  color: #004f3f;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 1px 6px;
+  cursor: pointer;
+  margin-top: -10;
+  opacity: 100%;
 }
 
 #theme-button:hover {
-  font-weight: bold; /* Hover effect similar to links */
+  font-weight: bold; 
+  color: purple;
+  opacity: 100%;
 }
-
 
 /* Part 2: Flexbox */
 
