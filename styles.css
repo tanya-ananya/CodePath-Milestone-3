@@ -80,9 +80,9 @@ button {
 }
 
 footer {
-  background-color: rgb(161, 160, 160);
+  background-color: rgb(190, 190, 190);
   margin: 0;
-  padding: 2%;
+  padding: 1%;
   text-align: center;
   left: 0;
   bottom: 0;
@@ -116,6 +116,7 @@ footer a {
 .main-content {
   margin: 1%;
   padding: 1%;
+  margin-bottom: 7%;
 }
 
 #intro {
@@ -146,8 +147,8 @@ footer a {
   background-color: rgb(161, 160, 160);
   position: fixed;
   top: 0;
-  padding: 2.5%;
-  border-bottom-left-radius: 20%;
+  padding: 1.5%;
+  /* border-bottom-left-radius: 20%; */
 }
 
 .navbar ul, #theme-button {
@@ -160,7 +161,7 @@ footer a {
 }
 
 .navbar ul li, #theme-button {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .navbar ul li a, #theme-button {
@@ -168,7 +169,6 @@ footer a {
   background-color: #016752;
   color: white;
   font-size: 20px;
-  padding: 8px 20px;
   border-radius: 8%;
   text-align: center;
   text-decoration: none;
@@ -177,6 +177,22 @@ footer a {
 .navbar ul li a:hover, #theme-button {
   font-weight: bold;
 }
+
+#theme-button {
+  font-family: "Cormorant Infant", serif;
+  background-color: #016752;
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px; /* Match this with the links */
+  border-radius: 8%;
+  border: none; /* Remove border for consistency */
+  cursor: pointer; /* Add cursor pointer for usability */
+}
+
+#theme-button:hover {
+  font-weight: bold; /* Hover effect similar to links */
+}
+
 
 /* Part 2: Flexbox */
 
